@@ -7,7 +7,7 @@ cmd|description
 `module list`|list all loaded modules
 `pip install --user "torch==1.4"`|install package into user directory
 `history`|list of past commands
-`submit myExJob.sh`|submit Slurm job
+`sbatch myExJob.sh`|submit Slurm job
 `srun --pty --account=cscar --partition=gpu --gres=gpu:1 --nodes=1 --ntasks-per-node=1 --mem-per-cpu=7g /bin/bash`|submit interactive Slurm job for gpu
 `scancel <jobid>`|delete job (interactive too)
 `squeue -u caoa`|show job queue
