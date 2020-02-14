@@ -28,17 +28,17 @@ https://arc-ts.umich.edu/wp-content/uploads/sites/4/2019/11/Great-Lakes-Cheat-Sh
 
 `rclone config`
 
-Here are the settings for accessing AWS S3 bucket. IAM user READ-ONLY role has been defined.
+Here is an example config setting for accessing AWS S3 bucket. IAM user READ-ONLY role has been defined.
 
 field|value
----|---
+:---:|:---:
 name|S3bucket
 type|s3
 provider|AWS
 env_auth|false
 access_key_id|<access_key>
 secret_access_key|<secret_access_key>
-region|<your region>
+region|us-east-2
 acl|private
   
 Everything else is default setting.
