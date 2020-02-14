@@ -20,3 +20,34 @@ cmd|description
 
 [Great Lakes Cheat Sheet by Arc-TS](
 https://arc-ts.umich.edu/wp-content/uploads/sites/4/2019/11/Great-Lakes-Cheat-Sheet-11-19.pdf)
+
+
+# rclone Cheat Sheet
+
+`module load rclone`
+
+`rclone config`
+
+Here are the settings for accessing AWS S3 bucket. IAM user READ-ONLY role has been defined.
+
+field|value
+---|---
+name|S3bucket
+type|s3
+provider|AWS
+env_auth|false
+access_key_id|<access_key>
+secret_access_key|<secret_access_key>
+region|<your region>
+acl|private
+  
+Everything else is default setting.
+
+cmd|description
+---|---
+`rclone lsd S3bucket:`|list buckets in account
+`rclone ls S3bucket:s3select-example`|list files in bucket
+`rclone copy S3bucket:s3select-example/summary.txt ~ --dry-run`|dry run of copying file from AWS to local
+`rclone copy S3bucket:s3select-example/summary.txt ~`|copy file from AWS to local
+
+
