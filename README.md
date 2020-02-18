@@ -24,9 +24,13 @@ https://arc-ts.umich.edu/wp-content/uploads/sites/4/2019/11/Great-Lakes-Cheat-Sh
 
 # rclone Cheat Sheet
 
-`module load rclone`
-
-`rclone config`
+Great Lakes
+```
+module load rclone
+rclone config
+```
+Cavium  
+`/sw/dsi/aarch64/centos7/bin/rclone config`
 
 Here is an example config setting for accessing AWS S3 bucket. IAM user READ-ONLY role has been defined.
 
