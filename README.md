@@ -42,7 +42,7 @@ provider|AWS
 env_auth|false
 access_key_id|<access_key>
 secret_access_key|<secret_access_key>
-region|us-east-2
+region|<region>
 acl|private
   
 Everything else is default setting.
