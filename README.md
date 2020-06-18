@@ -42,11 +42,13 @@ provider|AWS
 env_auth|false
 access_key_id|<access_key>
 secret_access_key|<secret_access_key>
-region|<AWS_region>
+region|< region >
 acl|private
-endpoint|<endpoint if exists else use default>
+endpoint|< endpoint if exists else use default >
   
 Everything else is default setting.
+
+After you set up your remote. Here are some example commands you can use. Remember to substitute the bucketname and file where appropriate.
 
 cmd|description
 ---|---
