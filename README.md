@@ -32,6 +32,7 @@ rclone config
 ### Cavium  
 `/sw/dsi/aarch64/centos7/bin/rclone config`
 
+### AWS S3 Example
 Here is an example config setting for accessing AWS S3 bucket. IAM user READ-ONLY role has been defined.
 
 field|value
