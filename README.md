@@ -42,9 +42,9 @@ provider|AWS
 env_auth|false
 access_key_id|<access_key>
 secret_access_key|<secret_access_key>
-region|<AWS region>
+region|<AWS_region>
 acl|private
-endpoint|<endpoint if exists else "">
+endpoint|<endpoint if exists else use default>
   
 Everything else is default setting.
 
