@@ -15,6 +15,7 @@ cmd|description
 `scp localfile caoa@greatlakes-xfer.arc-ts.umich.edu:~/remotefile`|copy file from local to great lakes
 `scp -r localdir caoa@greatlakes-xfer.arc-ts.umich.edu:~/remotedir`|copy directory from local to great lakes
 `scp -r caoa@greatlakes-xfer.arc-ts.umich.edu:~/remotedir localdir`|copy directory from great lakes to local
+`du -sh folder`|dispaly disk usage stats
 
 [Great Lakes User Guide by Arc-TS](https://arc-ts.umich.edu/greatlakes/user-guide/)
 
